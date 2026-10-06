@@ -8,20 +8,20 @@
   android:paddingBottom="5sp">
 
   <ImageView
-    android:id="@+id/imv_photo"
+    android:id="@+id/imv_profile"
     android:layout_width="150dp"
     android:layout_height="150dp"
     android:layout_gravity="center" />
 
   <TextView
-    android:id="@+id/tv_title"
+    android:id="@+id/tv_uname"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_gravity="center"
     android:fontFamily="cursive"
     android:paddingTop="5sp"
     android:paddingBottom="10sp"
-    android:text="Caption"
+    android:text="Username"
     android:textColor="@color/white"
     android:textSize="18sp" />
 </LinearLayout>

@@ -1,0 +1,68 @@
+{
+    "users":
+        [
+        {
+            "id": "1",
+            "uname": "minhanh",
+            "password": "anh@2026",
+            "url_profile": "https://randomuser.me/api/portraits/women/44.jpg",
+            "short_bio": "Sinh viên năm 3 ngành Công nghệ thông tin, thích chụp ảnh phong cảnh và đi phượt cuối tuần."
+        },
+        {
+            "id": "2",
+            "uname": "quocbao",
+            "password": "bao123456",
+            "url_profile": "https://randomuser.me/api/portraits/men/32.jpg",
+            "short_bio": "Lập trình viên Android, đam mê Java và thiết kế giao diện người dùng."
+        },
+        {
+            "id": "3",
+            "uname": "thuha",
+            "password": "ha_2004",
+            "url_profile": "https://randomuser.me/api/portraits/women/65.jpg",
+            "short_bio": "Yêu thích đọc sách, nấu ăn và chia sẻ công thức món Việt."
+        },
+        {
+            "id": "4",
+            "uname": "ducminh",
+            "password": "minh!pass",
+            "url_profile": "https://randomuser.me/api/portraits/men/75.jpg",
+            "short_bio": "Fan bóng đá, chạy bộ mỗi sáng và đang học thêm về trí tuệ nhân tạo."
+        },
+        {
+            "id": "5",
+            "uname": "lananh",
+            "password": "lan_anh99",
+            "url_profile": "https://randomuser.me/api/portraits/women/12.jpg",
+            "short_bio": "Designer tự do, thích vẽ minh họa và nghe nhạc indie."
+        },
+        {
+            "id": "6",
+            "uname": "hoangnam",
+            "password": "nam2026",
+            "url_profile": "https://randomuser.me/api/portraits/men/46.jpg",
+            "short_bio": "Đang làm đồ án tốt nghiệp về ứng dụng di động quản lý chi tiêu."
+        },
+        {
+            "id": "7",
+            "uname": "ngocmai",
+            "password": "mai#2005",
+            "url_profile": "https://randomuser.me/api/portraits/women/29.jpg",
+            "short_bio": "Thành viên CLB tiếng Anh, thích du lịch và tìm hiểu văn hóa các nước."
+        },
+        {
+            "id": "8",
+            "uname": "tuankiet",
+            "password": "kiet_88",
+            "url_profile": "https://randomuser.me/api/portraits/men/86.jpg",
+            "short_bio": "Game thủ, streamer nghiệp dư và người mê công nghệ."
+        },
+        {
+            "id": "9",
+            "uname": "phuongthao",
+            "password": "thao2026!",
+            "url_profile": "https://randomuser.me/api/portraits/women/90.jpg",
+            "short_bio": "Học ngành Marketing, quan tâm đến mạng xã hội và nhiếp ảnh sản phẩm."
+        }
+        ]
+}

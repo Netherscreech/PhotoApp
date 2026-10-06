@@ -1,3 +1,5 @@
 <resources>
-  <string name="app_name">Article View</string>
+  <string name="app_name">User View</string>
+  <string name="label_id">ID: %1$d</string>
+  <string name="label_password">Password: %1$s</string>
 </resources>
