@@ -9,8 +9,8 @@ import android.widget.GridView;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
-  // Sau khi fork, thay YOUR_GITHUB_USERNAME bằng tài khoản GitHub của bạn (file users.json nằm ở thư mục gốc repo)
-  private static final String USERS_URL = "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/PhotoApp/master/users.json";
+  // users.json nằm ở thư mục gốc repo (bản fork của Netherscreech)
+  private static final String USERS_URL = "https://raw.githubusercontent.com/Netherscreech/PhotoApp/master/users.json";
 
   public GridView gridview;
 
