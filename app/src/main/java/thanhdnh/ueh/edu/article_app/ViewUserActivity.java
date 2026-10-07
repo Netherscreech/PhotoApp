@@ -34,7 +34,6 @@ public class ViewUserActivity extends AppCompatActivity {
     Picasso.get().load(user.getUrl_profile()).resize(400, 400).centerCrop().into(iv_detail);
     tv_detail_uname.setText(user.getUname());
     tv_detail_id.setText(getString(R.string.label_id, user.getId()));
-    // không hiển thị mật khẩu thật, chỉ hiện dấu * theo độ dài
     StringBuilder masked = new StringBuilder();
     for (int i = 0; i < user.getPassword().length(); i++)
       masked.append('*');

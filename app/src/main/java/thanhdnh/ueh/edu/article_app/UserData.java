@@ -36,7 +36,6 @@ public class UserData {
   public void loadData(String url, Activity activity){
       executor.execute(()->{
           File file = Downloader.downloadFile(url, context.getCacheDir());
-          // không tải được (chưa có mạng / url chưa đúng) thì dùng file users.json đóng gói sẵn trong assets
           String json = (file != null) ? readText(file) : readAsset("users.json");
           if(json != null)
             activity.runOnUiThread(()->{

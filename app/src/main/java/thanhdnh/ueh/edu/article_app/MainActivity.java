@@ -9,7 +9,6 @@ import android.widget.GridView;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
-  // users.json nằm ở thư mục gốc repo (bản fork của Netherscreech)
   private static final String USERS_URL = "https://raw.githubusercontent.com/Netherscreech/PhotoApp/master/users.json";
 
   public GridView gridview;
