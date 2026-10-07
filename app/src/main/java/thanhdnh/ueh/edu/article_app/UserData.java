@@ -33,18 +33,24 @@ public class UserData {
     return null;
   }
 
-  public void loadData(String url, Activity activity){
-      executor.execute(()->{
+  public void loadData(final String url, final Activity activity){
+      executor.execute(new Runnable() {
+        @Override
+        public void run() {
           File file = Downloader.downloadFile(url, context.getCacheDir());
-          String json = (file != null) ? readText(file) : readAsset("users.json");
+          final String json = (file != null) ? readText(file) : readAsset("users.json");
           if(json != null)
-            activity.runOnUiThread(()->{
-              Gson gson = new Gson();
-              data = gson.fromJson(json, (Type) UserList.class);
-              UserAdapter adapter = new UserAdapter(data.getUsers(), context);
-              gridview.setAdapter(adapter);
+            activity.runOnUiThread(new Runnable() {
+              @Override
+              public void run() {
+                Gson gson = new Gson();
+                data = gson.fromJson(json, (Type) UserList.class);
+                UserAdapter adapter = new UserAdapter(data.getUsers(), context);
+                gridview.setAdapter(adapter);
+              }
             });
-        });
+        }
+      });
   }
 
   public String readText(File file){
